@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de mascotas</title>
+</head>
+<body>
+    <form action="pagina_ficticia.html" method="get">
+        <label for="nombre">Nombre de la mascota: </label>
+        <input type="text" id="nombre" name="nombre"><br><br>
+
+        <label for="especie">Especie: </label>
+        <select id="especie" name="especie">
+            <option value="perro">Perro</option>
+            <option value="gato">Gato</option>
+        </select><br><br>
+
+        <input type="checkbox" id="vacunando" name="vacunado">
+        <label for="vacunado">¿Está vacunado?</label><br><br>
+
+        <label>Sexo: </label>
+        <input type="radio" id="macho" name="sexo" value="macho">
+        <label for="macho">Macho</label>
+        <input type="radio" id="hembra" name="sexo" value="hembra">
+        <label for="hembra">Hembra</label><br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
